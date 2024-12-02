@@ -4,7 +4,7 @@ fn main() {
     let mut left_most: Vec<i32> = Vec::new();
     let mut right_most: Vec<i32> = Vec::new();
 
-    let contents: String = std::fs::read_to_string("src/input.txt")
+    let contents: String = std::fs::read_to_string("input.txt")
     .expect("Should have been able to read the file");
     for line in contents.lines(){
         //Splits the &str into two parts
